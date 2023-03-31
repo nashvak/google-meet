@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 0 12px;
+}
+.logo span {
+  padding-left: 4px;
+  color: #5f6368;
+  opacity: 1;
+  display: inline-block;
+  font-family: "Product Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 24px;
+  position: relative;
+  top: -1.5px;
+  vertical-align: middle;
+}
+.right-nav {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+.section-1 {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: grey;
+    height: 40px;
+    margin-right: 1rem;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    line-height: 1.5rem;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  .section-1  {
+    font-size: 20px;
+    margin-right: 4rem;
+  }
+  .section-2 i{
+    color: #5f6368;
+    font-size: 22px;
+    margin-right: 2rem;
+  }
+  .section-2 i:hover{
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #f2f3f5;
+  }
+  .section-3{
+    display: flex;
+    align-items: center;  
+    margin-left: 3rem;
+  }
+  .profile {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 1rem;
+  }
+.grid{
+  height: 18px;
+  width: 18px;
+  color: grey;
+}
+
+
+
+
+
+
+/* body section*/
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 125px;
+}
+
+
+
+.contents {
+  display: inline-flex;
+  flex-basis: 35rem;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  flex-shrink: 1;
+  max-width: 35rem;
+  padding: 1em 5rem;
+}
+h2 {
+  width: 400px;
+
+  font-size: 40px;
+
+  margin-bottom: 1rem;
+  font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+}
+.description {
+  font-weight: 100;
+  width: 400px;
+  margin-bottom: 3rem;
+  color: rgb(95, 99, 104);
+  font-family: "Google Sans Display", Roboto, Arial, sans-serif;
+}
+.buttons {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.btn-1 {
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid;
+  padding: 1rem;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  border-radius: 5px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  letter-spacing: 0.0107142857em;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+.btn-1 i,
+.btn-2 i {
+  margin-right: 5px;
+}
+.btn-2 {
+  height: 3rem;
+  width: 14rem;
+  border: 1px solid;
+  padding: 1rem;
+
+  color: grey;
+  border-radius: 5px;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  letter-spacing: 0.0107142857em;
+  font-weight: 500;
+}
+.line {
+  width: 29rem;
+  height: 0.5rem;
+  border-bottom: 1px solid rgb(207, 208, 210);
+  margin-bottom: 1rem;
+}
+.contents a {
+  text-decoration: none;
+  margin-right: 0.3rem;
+  color: #1a73e8;
+}
+.contents a:hover {
+  text-decoration: underline;
+}
+.link-1 {
+  color: rgb(95, 99, 104);
+  font-size: 20px;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10rem;
+}
+.content-2 img {
+  height: 20.625rem;
+  width: 20.625rem;
+}
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.image i {
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.text {
+  text-align: center;
+  font-family: Roboto,Arial,sans-serif;
+}
+.text span{
+  font-weight: 700;
+  font-family: Roboto,Arial,sans-serif;
+}
+.desc {
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
+}
+p {
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.0142857143em;
+  font-weight: 400;
+  text-align: center;
+}
+.column-div {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+}
